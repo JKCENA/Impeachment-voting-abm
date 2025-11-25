@@ -6,7 +6,7 @@ This directory contains the source code for the Agent-Based Models (ABM) used to
 
 | File Name | Description |
 | :--- | :--- |
-| **[standing ovation_perople_power_party.nlogo](./standing%20ovation_perople_power_party.nlogo)** | **Basic Model (Scenario 1)**<br>Simulates the 1st vote (boycott). Features a high "Cost" function for early defectors and gradual external pressure increase. |
+| **[standing ovation_people_power_party.nlogo](./standing%20ovation_people_power_party.nlogo)** | **Basic Model (Scenario 1)**<br>Simulates the 1st vote (boycott). Features a high "Cost" function for early defectors and gradual external pressure increase. |
 | **[standing ovation_people_power_party_pressure_sudden_increase.nlogo](./standing%20ovation_people_power_party_pressure_sudden_increase.nlogo)** | **Sudden Pressure Model (Scenario 2)**<br>Simulates the 2nd vote. External pressure starts lower (0.1) but follows a different pressure dynamic to simulate a sudden tipping point. |
 
 ---
