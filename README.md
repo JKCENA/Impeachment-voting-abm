@@ -43,12 +43,12 @@ Contains the **raw dataset (Excel/CSV)** exported from 800+ simulation runs.
 The simulation environment represents the National Assembly plenary hall as a 20x20 grid.
 
 ### 1. Model Setup
-![Model Environment](./images/Model%20Environment.png)
+![Model Environment](./RESULTS/Model%20Environment.png)
 * **Grid:** The black grid represents the plenary hall seats.
 * **Agents:** 108 gray circles represent PPP lawmakers, distributed randomly. Each holds an intrinsic preference ($P$) regarding impeachment (0 to 1).
 
 ### 2. Pressure Calculation Logic
-![Pressure Example](./images/Pressure%20Example.png)
+![Pressure Example](./RESULTS/Pressure%20Example.png)
 * **$\star$ (Star):** The target agent making a decision.
 * **$\bigcirc$ (Circles):** Immediate neighbors (left/right) exerting direct peer pressure.
 * **$\triangle$ (Triangles):** Agents within the **"Vision Cone"** (Standing Ovation logic). The agent observes colleagues in front of them.
@@ -63,14 +63,14 @@ The simulation environment represents the National Assembly plenary hall as a 20
 ### Case 1: Reproduction of the 1st Vote (Boycott)
 The party leadership enforced a boycott, applying a high "psychological cost" to entering the hall.
 
-![First Vote](./images/First%20Vote.png)
+![First Vote](./RESULTS/First%20Vote.png)
 * **Outcome:** Only a few isolated agents (outliers) participate.
 * **Analysis:** The model reflects the high cost of being the "first mover." Consistent with actual events (e.g., Rep. Ahn Cheol-soo), only agents with **extremely high intrinsic preference** or **low sensitivity to party pressure** could overcome the boycott cost.
 
 ### Case 2: Reproduction of the 2nd Vote (Approval)
 Driven by increased external pressure (public opinion) and decreased party pressure.
 
-![Second Vote](./images/Second%20Vote.png)
+![Second Vote](./RESULTS/Second%20Vote.png)
 * **Outcome:** Mass participation and clustering of defectors (Red Triangles).
 * **Analysis:**
     * The simulation produced approximately **21-23 approval/invalid votes**, closely mirroring the actual result (12 Yes + 11 Invalid).
@@ -87,6 +87,7 @@ Driven by increased external pressure (public opinion) and decreased party press
     * Click **`Go`** to observe the voting dynamics.
 
 ---
+
 
 ## 👤 Author & Reference
 * **Research & Dev:** [KANG, JI HUN/JKCENA / KIM, JUN_SEOK]
