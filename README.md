@@ -90,7 +90,7 @@ Driven by increased external pressure (public opinion) and decreased party press
 
 
 ## 👤 Author & Reference
-* **Research & Dev:** [KANG, JI HUN/JKCENA / KIM, JUN_SEOK]
+* **Research & Dev:** [KANG, JIHUN/JKCENA / KIM, JUNSEOK]
 * **Citation:** Kang, J., & Kim, J. (2025). "An Agent-Based Model Analysis of the People Power Party's Impeachment Voting Behavior".
 
 *Licensed under the MIT License.*
